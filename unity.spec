@@ -9,7 +9,7 @@ Summary:	A desktop experience designed for efficiency of space and interaction
 Name:		unity
 Version:	4.24.0
 Release:	2
-License:	GPLv3,LGPLv3
+License:	GPLv3 LGPLv3
 Url:		http://launchpad.net/unity
 Group:		Graphical desktop/Other
 Source0:	%{name}-%{version}.tar.bz2
@@ -17,6 +17,7 @@ Patch0:		unity-4.16.0-disable-tests.patch
 Patch1:		unity-4.16.0-libdir-hack.patch
 # glib gthread deprecated
 Patch2:		unity-4.24.0_gthread_deprecated.patch
+Patch3:		unity-4.24.0_linking.patch
 BuildRequires:	cmake
 BuildRequires:	vala
 BuildRequires:	xsltproc
@@ -74,7 +75,7 @@ graphics technologies and a deep understanding of the free software landscape,
 
 %package common
 Summary:	Common files for the Unity interface
-Group:		Applications/System
+Group:		Graphical desktop/Other
 BuildArch:	noarch
 
 %description common
@@ -82,7 +83,7 @@ Common files for the Unity interface.
 
 %package services
 Summary:	Services for the Unity interface
-Group:		Applications/System
+Group:		Graphical desktop/Other
 
 %description services
 Services for the Unity interface
@@ -119,7 +120,7 @@ Development files for Unity and libunity-core
   -DCOMPIZ_PLUGIN_INSTALL_TYPE=package \
   -DCOMPIZ_INSTALL_GCONF_SCHEMA_DIR=%{_sysconfdir}/gconf/schemas \
   -DGSETTINGS_LOCALINSTALL=OFF
-%make LIBS='-lgmodule-2.0'
+%make
 
 %install
 %makeinstall_std -C build
