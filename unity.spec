@@ -119,7 +119,7 @@ Development files for Unity and libunity-core
   -DCOMPIZ_PLUGIN_INSTALL_TYPE=package \
   -DCOMPIZ_INSTALL_GCONF_SCHEMA_DIR=%{_sysconfdir}/gconf/schemas \
   -DGSETTINGS_LOCALINSTALL=OFF
-%make
+%make LIBS='-lgmodule-2.0'
 
 %install
 %makeinstall_std -C build
