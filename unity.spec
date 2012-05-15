@@ -1,14 +1,14 @@
 %define _disable_ld_no_undefined 1
 
-%define major	4
-%define abi		4.0
+%define major	5
+%define abi		5.0
 %define libname	%mklibname unity-core	%{major}
 %define develname	%mklibname unity-core	-d
 
 Summary:	A desktop experience designed for efficiency of space and interaction
 Name:		unity
-Version:	4.24.0
-Release:	2
+Version:	5.12.0
+Release:	1
 License:	GPLv3 LGPLv3
 Url:		http://launchpad.net/unity
 Group:		Graphical desktop/Other
