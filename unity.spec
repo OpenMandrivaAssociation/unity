@@ -14,7 +14,7 @@ Url:		http://launchpad.net/unity
 Group:		Graphical desktop/Other
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		unity-5.12.0-disable-tests.patch
-Patch1:		unity-4.16.0-libdir-hack.patch
+Patch1:		unity-5.12.0-libdir-hack.patch
 Patch3:		unity-5.12.0_linking.patch
 BuildRequires:	cmake
 BuildRequires:	vala
