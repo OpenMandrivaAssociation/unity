@@ -45,6 +45,7 @@ BuildRequires:	pkgconfig(unity)
 BuildRequires:	pkgconfig(unity-misc)
 BuildRequires:	pkgconfig(utouch-grail)
 BuildRequires:  pkgconfig(gdu)
+BuildRequires:  pkgconfig(xfixes)
 BuildRequires:	compiz-plugins-main-devel
 
 Requires:	compiz >= 0.9.2.1
