@@ -16,6 +16,7 @@ Source0:	%{name}-%{version}.tar.bz2
 Patch0:		unity-5.12.0-disable-tests.patch
 Patch1:		unity-5.12.0-libdir-hack.patch
 Patch3:		unity-5.12.0_linking.patch
+Patch4:		unity-5.12.0-schema_error.patch
 BuildRequires:	cmake
 BuildRequires:	vala
 BuildRequires:	xsltproc
