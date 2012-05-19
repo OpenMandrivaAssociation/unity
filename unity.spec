@@ -37,12 +37,13 @@ BuildRequires:	pkgconfig(libbamf3)
 BuildRequires:	pkgconfig(libcompizconfig)
 BuildRequires:	pkgconfig(libnotify)
 BuildRequires:	pkgconfig(libutouch-geis)
-BuildRequires:	pkgconfig(nux-1.0)
+BuildRequires:	pkgconfig(nux-2.0)
 BuildRequires:	pkgconfig(pango)
 BuildRequires:	pkgconfig(unique-1.0)
 BuildRequires:	pkgconfig(unity)
 BuildRequires:	pkgconfig(unity-misc)
 BuildRequires:	pkgconfig(utouch-grail)
+BuildRequires:  pkgconfig(gdu)
 BuildRequires:	compiz-plugins-main-devel
 
 Requires:	compiz >= 0.9.2.1
