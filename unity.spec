@@ -17,6 +17,8 @@ Patch0:		unity-5.12.0-disable-tests.patch
 Patch1:		unity-5.12.0-libdir-hack.patch
 Patch3:		unity-5.12.0_linking.patch
 Patch4:		unity-5.12.0-schema_error.patch
+# disable launcher test as depends on xfixes 6
+Patch5:		unity-5.12.0-disable_launcher_test.patch
 BuildRequires:	cmake
 BuildRequires:	vala
 BuildRequires:	xsltproc
