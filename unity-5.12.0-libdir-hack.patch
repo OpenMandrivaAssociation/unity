@@ -1,0 +1,25 @@
+diff -urN unity-4.16.0.old//UnityCore/CMakeLists.txt unity-4.16.0/UnityCore/CMakeLists.txt
+--- unity-4.16.0.old//UnityCore/CMakeLists.txt	2011-09-15 17:06:09.000000000 +0100
++++ unity-4.16.0/UnityCore/CMakeLists.txt	2011-09-18 10:57:08.462432480 +0100
+@@ -111,8 +111,8 @@
+ 
+ install (TARGETS ${CORE_LIB_NAME}
+          RUNTIME DESTINATION bin
+-         ARCHIVE DESTINATION lib
+-         LIBRARY DESTINATION lib
++         ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
++         LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+         )
+ 
+ #
+@@ -124,8 +124,8 @@
+ # PkgConfig file
+ #
+ set (EXEC_PREFIX "${CMAKE_INSTALL_PREFIX}")
+-set (LIBDIR "${CMAKE_INSTALL_PREFIX}/lib")
++set (LIBDIR "${CMAKE_INSTALL_LIBDIR}")
+ set (INCLUDEDIR "${CMAKE_INSTALL_PREFIX}/include")
+ 
+ configure_file (unity-core.pc.cmake ${CMAKE_CURRENT_BINARY_DIR}/${CORE_LIB_NAME}.pc @ONLY)
+-install (FILES ${CMAKE_CURRENT_BINARY_DIR}/${CORE_LIB_NAME}.pc DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/pkgconfig)
++install (FILES ${CMAKE_CURRENT_BINARY_DIR}/${CORE_LIB_NAME}.pc DESTINATION ${CMAKE_INSTALL_LIBDIR}/pkgconfig)

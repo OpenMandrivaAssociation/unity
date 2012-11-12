@@ -1,0 +1,10 @@
+--- a/CMakeLists.txt.orig	2012-05-18 08:57:18.019286433 +0100
++++ a/CMakeLists.txt	2012-05-18 08:57:27.352286811 +0100
+@@ -152,7 +152,6 @@
+ endif(GTEST_INCLUDE_DIR)
+ 
+ add_subdirectory(services)
+-add_subdirectory(tests)
+ add_subdirectory(tools)
+ add_subdirectory(UnityCore)
+ add_subdirectory(guides)
