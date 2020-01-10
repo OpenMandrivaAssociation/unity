@@ -114,7 +114,7 @@ Development files for Unity and libunity-core
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %cmake \
