@@ -7,12 +7,13 @@
 
 Summary:	A desktop experience designed for efficiency of space and interaction
 Name:		unity
-Version:	5.12.0
+Version:	7.5
 Release:	1
 License:	GPLv3 LGPLv3
 Url:		http://launchpad.net/unity
 Group:		Graphical desktop/Other
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	%{name}.tar.gz
+
 Patch0:		unity-5.12.0-disable-tests.patch
 Patch1:		unity-5.12.0-libdir-hack.patch
 Patch3:		unity-5.12.0_linking.patch
