@@ -7,12 +7,12 @@
 
 Summary:	A desktop experience designed for efficiency of space and interaction
 Name:		unity
-Version:	5.12.0
+Version:	7.6.0
 Release:	1
 License:	GPLv3 LGPLv3
 Url:		http://launchpad.net/unity
 Group:		Graphical desktop/Other
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	https://gitlab.com/ubuntu-unity/unity/unity/-/archive/master/unity-master.tar.bz2
 Patch0:		unity-5.12.0-disable-tests.patch
 Patch1:		unity-5.12.0-libdir-hack.patch
 Patch3:		unity-5.12.0_linking.patch
@@ -113,7 +113,7 @@ Provides:	%{name}-devel = %{version}-%{release}
 Development files for Unity and libunity-core
 
 %prep
-%setup -q
+%setup -q -n unity-master
 %autopatch -p1
 
 %build
