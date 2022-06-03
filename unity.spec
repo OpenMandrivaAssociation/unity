@@ -26,6 +26,7 @@ BuildRequires:	boost-devel
 BuildRequires:	compiz-devel
 BuildRequires:	pkgconfig(gmock)
 BuildRequires:	vala-devel
+BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:	pkgconfig(clutter-1.0)
 BuildRequires:	pkgconfig(dbusmenu-glib-0.4)
 BuildRequires:	pkgconfig(dee-1.0)
@@ -45,6 +46,7 @@ BuildRequires:	pkgconfig(pango)
 BuildRequires:	pkgconfig(unique-1.0)
 BuildRequires:	pkgconfig(unity)
 BuildRequires:	pkgconfig(unity-misc)
+BuildRequires:  pkgconfig(unity-settings-daemon)
 BuildRequires:	pkgconfig(grail)
 #BuildRequires:  pkgconfig(gdu)
 BuildRequires:  pkgconfig(xfixes)
