@@ -53,6 +53,7 @@ BuildRequires:  pkgconfig(xfixes)
 BuildRequires:  pkgconfig(xpathselect)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 #BuildRequires:	compiz-plugins-main-devel
+BuildRequires:  lib64ido-devel
 
 Requires:	compiz >= 0.9.2.1
 #Requires:	compizconfig-settings-manager >= 0.9.2.1
