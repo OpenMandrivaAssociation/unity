@@ -39,7 +39,7 @@ BuildRequires:	pkgconfig(indicator3-0.4)
 BuildRequires:	pkgconfig(libbamf3)
 BuildRequires:	pkgconfig(libcompizconfig)
 BuildRequires:	pkgconfig(libnotify)
-BuildRequires:	pkgconfig(geis)
+BuildRequires:	pkgconfig(libgeis)
 BuildRequires:	pkgconfig(nux-2.0)
 BuildRequires:	pkgconfig(pango)
 BuildRequires:	pkgconfig(unique-1.0)
@@ -48,6 +48,7 @@ BuildRequires:	pkgconfig(unity-misc)
 BuildRequires:	pkgconfig(grail)
 #BuildRequires:  pkgconfig(gdu)
 BuildRequires:  pkgconfig(xfixes)
+BuildRequires:  pkgconfig(zeitgeist-2.0)
 #BuildRequires:	compiz-plugins-main-devel
 
 Requires:	compiz >= 0.9.2.1
