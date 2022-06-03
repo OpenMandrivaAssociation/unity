@@ -50,6 +50,7 @@ BuildRequires:  pkgconfig(unity-settings-daemon)
 BuildRequires:	pkgconfig(grail)
 #BuildRequires:  pkgconfig(gdu)
 BuildRequires:  pkgconfig(xfixes)
+BuildRequires:  pkgconfig(xpathselect)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 #BuildRequires:	compiz-plugins-main-devel
 
