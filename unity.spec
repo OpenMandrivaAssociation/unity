@@ -20,7 +20,7 @@ Source0:	https://gitlab.com/ubuntu-unity/unity/unity/-/archive/master/unity-mast
 # disable launcher test as depends on xfixes 6
 #Patch5:		unity-5.12.0-disable_launcher_test.patch
 BuildRequires:	cmake
-BuildRequires:  compiz
+BuildRequires:  compiz >= 0.9.14.1-0.20211217.1
 BuildRequires:  doxygen
 BuildRequires:	vala
 BuildRequires:	xsltproc
