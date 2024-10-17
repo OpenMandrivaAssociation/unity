@@ -10,7 +10,7 @@ Name:		unity
 Version:	5.12.0
 Release:	1
 License:	GPLv3 LGPLv3
-Url:		http://launchpad.net/unity
+Url:		https://launchpad.net/unity
 Group:		Graphical desktop/Other
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		unity-5.12.0-disable-tests.patch
